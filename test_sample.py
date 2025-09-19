@@ -15,6 +15,7 @@ driver.find_element(By.XPATH, "//input[@id='mui-5']").send_keys("Omar@085")
 
 driver.find_element(By.XPATH,"//button[@type='submit']").click()
 time.sleep(6)
+time.sleep(3)
 
 
 # Dummy pytest test case
